@@ -1,0 +1,23 @@
+extends layout
+
+block content
+
+ .jumbotron
+  h1 Show Tacos
+
+
+  p #{tacos.shell}
+
+  p= tacos.taste
+
+  p= tacos.id
+   .form-group
+    form(action="/"+tacos.id+'/delete' method='post')
+      button(type="submit" class="btn btn-danger") Delete
+
+    button(type="tacos" class="btn btn-success")  
+       a(href='/'+tacos.id+'/update' ) Update
+
+    button(type="tacos" class="btn btn-primary")
+       a(href='/') Index
+    

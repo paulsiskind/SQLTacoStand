@@ -1,0 +1,16 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url('http://vignette2.wikia.nocookie.net/clubpenguin/images/2/2f/Mini_Sombrero.png/revision/20140408163248')
+}
+
+a {
+  color: green;
+}
+.jumbotron{
+  text-align: center;
+  background: url('http://media3.giphy.com/media/3KAxGKtEQpTmo/giphy.gif')
+}
+li{
+font-size: 20px;
+}

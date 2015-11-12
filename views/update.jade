@@ -1,0 +1,14 @@
+extends layout
+
+block content
+ .jumbotron
+  h1 Update
+
+
+  form(action="/"+tacos.id+'/update' method="post")
+    label Shell
+      input(type="text" name="shell" )
+    label Taste
+      input(type="text" name="taste")
+
+      button(type="submit") Submit

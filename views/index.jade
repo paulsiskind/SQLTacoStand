@@ -1,0 +1,18 @@
+extends layout
+
+block content
+ 
+  .jumbotron
+   h1 Taco Show
+
+   for taco in tacos
+      li
+
+         a(href='/'+ taco.id) #{taco.shell} |  #{taco.taste}
+      
+
+   br
+   a(href="/new") New
+    
+
+ 

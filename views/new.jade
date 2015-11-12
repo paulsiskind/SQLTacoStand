@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  .jumbotron
+   h1 Add Taco
+   form(action="/" method="post")
+    label Shell
+      input(type="text" name="shell" )
+    label Taste
+      input(type="text" name="taste")
+
+      button(type="submit") Submit
